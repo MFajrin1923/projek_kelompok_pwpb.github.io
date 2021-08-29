@@ -1,0 +1,49 @@
+#app {
+    font-family: 'Monserrat', sans-serif;
+}
+
+.router-link-exact-active {
+    font-weight: bold;
+}
+
+/* .btn-success {
+    background-color: #4EB883;
+}
+
+.badge-success {
+    background-color: #4EB883;
+} */
+
+.btn-danger {
+    background-color: #F50057;
+}
+
+.badge-danger {
+    background-color: #F50057;
+}
+
+.card {
+    border-radius: 15px !important;
+}
+
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+.breadcrumb-item.active {
+    font-weight: bold;
+}
+
+.img-fluid {
+    border-radius: 15px;
+}
+
+.hero-desktop {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
