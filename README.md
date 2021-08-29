@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-# projek_kelompok_pwpb.github.io
+
 Projek kelompok PWPB 
 =======
-# kulineran
 
 ## Project setup
 ```
@@ -26,4 +24,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
->>>>>>> 6e3b9b2 (init)
