@@ -44,6 +44,7 @@ const routes = [{
 ]
 
 const router = new VueRouter({
+  linkActiveClass: 'border-nav',
   routes
 })
 

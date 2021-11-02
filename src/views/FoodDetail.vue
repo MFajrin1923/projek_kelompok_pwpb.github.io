@@ -8,10 +8,10 @@
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item">
-                <router-link to="/">Home</router-link>
+                <router-link class="exact" to="/">Home</router-link>
               </li>
               <li class="breadcrumb-item">
-                <router-link to="/foods">Foods</router-link>
+                <router-link class="exact" to="/foods">Foods</router-link>
               </li>
               <li class="breadcrumb-item active" aria-current="page">Data</li>
             </ol>
@@ -36,6 +36,7 @@
           <h4>
             Harga <strong>Rp. {{ products.harga }}</strong>
           </h4>
+
           <form class="mt-3" v-on:submit.prevent>
             <div class="form-group">
               <label for="jumlah-pesanan">Jumlah Pesanan</label>

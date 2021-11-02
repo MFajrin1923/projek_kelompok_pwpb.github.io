@@ -21,6 +21,9 @@
 .badge-danger {
     background-color: #F50057;
 }
+.badge-info {
+    background-color: #00B0FF;
+}
 
 .card {
     border-radius: 15px !important;
@@ -46,4 +49,44 @@
 .hero-desktop {
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+.br-nav {
+    border-bottom: solid;
+    border-color: #cacaca;
+}
+
+.border-nav {
+    border-bottom: 3px solid #F50057;
+}
+
+.exact {
+    border-bottom: none !important;
+}
+
+.pb-cus {
+    padding-bottom: -50%;
+}
+
+.abu {
+    background-color: rgb(255, 255, 255);
+    top: 0px;
+    right: 0px;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.radius-left {
+    border-radius: 7px 0 0 0;
+}
+
+.bg-gradient {
+    background-image: linear-gradient(to right, #DDDDDD, #ebebeb, #fff);
+    border-radius: 0 7px 0 0;
+}
+
+.cursor-pointer {
+    cursor: pointer;
 }
